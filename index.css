@@ -113,7 +113,7 @@ nav .search{
     /* background-color: red; */
     padding: 0px 1.5vw
 }
-.show_box{
+.sliders{
     width: 100%;
     height: 130px;
     margin-top: 10px;
@@ -121,20 +121,30 @@ nav .search{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 7vw
+    padding: 0px 4vw;
+    overflow: hidden;
+    position: relative;
 }
-.show_box .item{
+.sliders .swiper-slide{
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    /* border: 2px solid orange; */
 }
-.show_box .item img{
-    width: 70px
+.sliders .item img{
+    width: 70px;
+    /* background-color: red; */
 }
-.show_box .item h2{
+.sliders .item h2{
     font-size: 0.9rem;
     font-weight: 600;
+    text-align: center;
+    /* white-space: nowrap; */
 }
+
 /* slider code */
 .slider{
     width: 100%;
