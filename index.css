@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sigmar&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    /* height: 100vh; */
+    background-color: rgb(231, 230, 230);
+}
+.main nav{
+    width: 100%;
+    height: 60px;
+    padding: 6px 4.4vw;
+    padding-left: 2.4vw;
+    /* position: fixed; */
+    background-color: rgb(255, 252, 252);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav>img{
+    width: 150px;
+    cursor: pointer;
+}
+nav .search{
+    width: 40%;
+    height: 75%;
+    background-color: rgb(227, 240, 251);
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search input{
+    width: 92%;
+    height: 83%;
+    margin-left: 6px;
+    border: none;
+    font-size: 1.1rem;
+    padding: 0px 0.4vw;
+    background-color: transparent;
+}
+.search input:focus{
+    border: none;
+    outline: none
+}
+.search i{
+    font-size: 1.1rem;
+    color: gray;
+}
+.login{
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    justify-content: center;
+    padding: 9px 1vw;
+    transition: all 0.3s 0s ease-in-out;
+}
+.login .dropdown{
+    transition: all 0.7s 0s ease-in-out;
+}
+.login .contact{
+    font-size: 1.1rem;
+}
+.login h2{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.login:hover{
+    background-color: blue; 
+    border-radius: 9px;
+    color: white;
+}
+.login:hover .dropdown{
+    transform: rotate(180deg);
+}
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart h2{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-left: 7px;
+}
+.cart i{
+    font-size: 1.1rem;
+}
+.seller{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.seller h2{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-left: 8px;
+}
+/* show-box ka code */
+
+.content{
+    width: 100%;
+    /* background-color: red; */
+    padding: 0px 1.5vw
+}
+.show_box{
+    width: 100%;
+    height: 130px;
+    margin-top: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 7vw
+}
+.show_box .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.show_box .item img{
+    width: 70px
+}
+.show_box .item h2{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+/* slider code */
+.slider{
+    width: 100%;
+    height: 230px;
+    /* background-color: white; */
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.slider img{
+    width: 100%;
+    height: 100%
+}
+.swiper-wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+/* best of electronics */
+
+.best{
+    width: 100%;
+    height: 280px;
+    /* background-color: rgb(173, 60, 60); */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 13px;
+    position: relative;
+}
+.best .left{
+    width: 82%;
+    height: 100%;
+    padding: 5px 1.5vw;
+    background-color: white;
+    position: relative;
+}
+
+.best .left .top{
+    width:100%;
+    height: 15%;
+    /* background-color: orange; */
+}
+.best .left .top h1{
+    font-size: 1.7rem;
+}
+.best .left .bottom{
+    width:100%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.bottom .card{
+    width: 230px;
+    height: 100%;
+    /* background-color: pink; */
+    /* border: 2px solid black; */
+    overflow: hidden;
+    padding: 7px 13px;
+}
+.bottom .card p{
+    margin-top: 8px;
+    white-space: nowrap;
+}
+.bottom .card h2{
+   text-align: center;
+}
+.bottom .card img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.bottom .card img:hover{
+    scale: 1.1;
+}
+.best .right{
+    width: 18%;
+    height: 100%;
+    /* background-color: rgb(91, 183, 58); */
+    background-image: url(https://images.unsplash.com/photo-1707153594031-46d09c89acea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YWRzJTIwb2YlMjBmbGlnaHR8ZW58MHx8MHx8fDA%3D);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+/* beauty */
+
+.beauty{
+    width: 100%;
+    height: 310px;
+    padding: 0px 1.5vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.beauty .top{
+    width: 100%;
+    height: 15%;
+    /* background-color: blue; */
+}
+.beauty .top h2{
+    font-size: 1.7rem;
+}
+.beauty .bottom{
+    width:100%;
+    height: 85%;
+    /* background-color: red; */
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.beauty .bottom .card{
+    width: 230px;
+    height: 100%;
+    /* border:  2px solid black; */
+}
+
+.beauty .bottom .card img{
+    width:100%;
+    height: 160px
+}
+.beauty .bottom .card p{
+    text-align: center;
+}
+
+/* sport */
+.sport{
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    background-color: white;
+    padding: 0px 1.5vw;
+    margin-bottom: 16px;
+}
+.sport .top{
+    width: 100%;
+    height: 15%;
+    /* background-color: orange; */
+}
+.sport .top h2{
+    font-size: 1.7rem;
+}
+.sport .bottom{
+    width: 100%;
+    height: 85%;
+    /* background-color: gold; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sport .bottom .card{
+    width: 230px;
+    height: 100%;
+}
+.sport .bottom .card p{
+    text-align: center;
+}
+
+/* footer */
+
+footer{
+    width:100%;
+    height: 280px;
+    background-color: black;
+    padding: 0px;
+}
+footer .top{
+    width: 100%;
+    height: 80%;
+    background-color: rgb(14, 14, 14);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 0px 2.5vw;
+    text-transform: uppercase;
+}
+footer .top .a{
+    margin-top: 13px;
+    display: flex;
+    flex-direction: column;
+    line-height: 23px;
+}
+footer .top a{
+    text-decoration: none;
+    color: white;
+}
+footer .top a:hover{
+    padding-bottom: 6px;
+    text-decoration: underline;
+}
+footer .about{
+    width: 25%;
+    height: 80%;
+    color: gray;
+    /* background-color: beige; */
+}
+footer .group{
+    width: 25%;
+    height: 80%;
+    color: gray;
+    /* background-color: beige; */
+}
+footer .help{
+    width: 25%;
+    height: 80%;
+    color: gray;
+    /* background-color: beige; */
+}
+footer .consumer_policy{
+    width: 25%;
+    height: 80%;
+    color: gray;
+    /* background-color: beige; */
+}
+footer .hr{
+    width:100%;
+    height: 4px;
+    background-color: gray;
+}
+footer .bottom{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(17, 17, 17);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .bottom p{
+    font-size: 1.7rem;
+    color: white;
+}
