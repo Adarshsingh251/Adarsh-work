@@ -191,7 +191,7 @@
     /* code of fotter */
     footer .top {
         width: 100%;
-        /* height: 280px; */
+        height: auto;
         padding-top: 7px;
         padding-bottom: 7px;
         flex-wrap: wrap;
