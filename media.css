@@ -163,6 +163,7 @@
     .sport{
         width: 100%;
         height: 220px;
+        overflow: hidden;
     }
     .sport .top{
         width:100%;
