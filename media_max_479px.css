@@ -1,0 +1,191 @@
+@media only screen and (min-width:401px) and (max-width: 479px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .main nav {
+        width: 108%;
+        padding: 6px 0vw;
+        margin-left: -7vw;
+        justify-content: space-between;
+    }
+
+    .main nav .search {
+        width: 50%;
+        display: none;
+    }
+
+    .main nav .seller {
+        display: none;
+    }
+
+    .main nav>i {
+        visibility: hidden;
+    }
+
+    .content {
+        width: 100%;
+        /* background-color: red; */
+        padding: 0px 2vw
+    }
+
+    .slider {
+        width: 100%;
+        height: 150px;
+
+    }
+
+    .slider .swiper-slide {
+        object-fit: cover;
+        object-position: bottom;
+    }
+
+    .best {
+        width: 100%;
+        height: 220px;
+    }
+
+    .best .bottom {
+        padding: 7px 0px;
+        overflow: hidden;
+    }
+
+    .best .left {
+        width: 67%;
+        height: 100%;
+        padding: 5px 2.4vw;
+        overflow: hidden;
+    }
+
+    .best .left .bottom .swiper-slide p {
+        white-space: nowrap;
+    }
+
+    .best .left .bottom .swiper-slide h2 {
+        font-size: 1.3rem;
+        line-height: 19px;
+        margin-top: 4px;
+        padding: 5px 5px;
+    }
+
+    .best .left .bottom .swiper-slide h2:hover {
+        background-color: blue;
+        border-radius: 10px;
+        color: white;
+    }
+
+    .best .left .top {
+        /* background-color: purple; */
+        width: 100%;
+        height: 15%;
+        padding: 0px 10px;
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+    }
+
+    .best .left .top h1 {
+        font-size: 1.4rem;
+    }
+
+    .best .right {
+        width: 37%
+    }
+
+    /* beauty code */
+    .beauty .bottom_slide {
+        overflow: hidden;
+    }
+
+    /* sport code */
+    .sport {
+        width: 100%;
+        height: 270px;
+    }
+
+    .sport .sport_slider {
+        overflow: hidden;
+    }
+
+    /* footer code */
+    footer {
+        width: 100%;
+        height: 500px;
+        background-color: black;
+        padding: 0px;
+    }
+
+    footer .top {
+        width: 100%;
+        height: 85%;
+        background-color: rgb(14, 14, 14);
+        display: flex;
+        flex-wrap: wrap;
+        padding: 13px 2.5vw;
+    }
+
+    footer .about {
+        width: 50%;
+        height: 45%;
+        color: gray;
+        /* background-color: beige; */
+    }
+
+    footer .group {
+        width: 47%;
+        height: 45%;
+        color: gray;
+        /* background-color: beige; */
+    }
+
+    footer .help {
+        width: 50%;
+        height: 50%;
+        color: gray;
+        /* background-color: beige; */
+    }
+
+    footer .consumer_policy {
+        width: 47%;
+        height: 50%;
+        color: gray;
+        /* background-color: beige; */
+    }
+
+    footer .bottom {
+        width: 100%;
+        height: 15%;
+    }
+
+    footer .bottom p {
+        font-size: 1.2rem;
+        color: white;
+    }
+
+    /* login form */
+    .cross {
+        position: absolute;
+        top: 190px;
+        right: 30px;
+    }
+    .login_form .form_info {
+        width: 100%;
+        height: 210px;
+        /* background-color: purple; */
+        padding: 17px 5.5vw;
+    }
+    .login_form .button {
+        padding: 0px 8vw;
+        width: 100%;
+        /* background-color: rgb(128, 0, 55); */
+        justify-content: center;
+        margin-top: 10px;
+        gap: 34px;
+    }
+    .login_form .button button{
+        padding: 10px 5vw;
+        border-radius: 40px;
+    }
+}

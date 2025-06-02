@@ -23,6 +23,10 @@ var slider = new Swiper(".sliders",{
             slidesPerView: 3,
             spaceBetween : 18,
         },
+        760:{
+            slidesPerView: 4,
+            spaceBetween : 18,
+        },
         1300:{
             slidesPerView: 8,
             // spaceBetween : 18,

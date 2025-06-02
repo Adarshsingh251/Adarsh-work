@@ -10,7 +10,7 @@ login_btn.addEventListener("click",function(){
 cross.addEventListener("click",function(){
     login_containers.style.transform = "scale(0)";
 })
-changed_login.addEventListener("click",function(){
+changed_login.addEventListener("click",function(event){
     event.preventDefault();
     login_btn.innerHTML = "<h2>Sign Out</h2>";
     login_containers.style.transform = "scale(0)";

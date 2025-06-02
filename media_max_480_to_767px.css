@@ -1,0 +1,38 @@
+@media only screen and (min-width: 480px) and (max-width: 820px){
+    html,body{
+        overflow-x: hidden;
+    }
+    body nav .search{
+        display: none !important;
+    }
+    .best {
+        width: 100%;
+        height: 320px;
+    }
+    .best .left {
+        /* width: 67%;
+        height: 100%; */
+        padding: 5px 2.4vw;
+        overflow: hidden;
+    }
+     /* beauty code */
+    .beauty .bottom_slide {
+        overflow: hidden;
+    }
+
+    /* sport code */
+     .sport {
+        width: 100%;
+        height: 416px;
+        overflow: hidden;
+    }
+    .sport .sport_slider {
+        overflow: hidden;
+    }
+    /* login form  */
+    .cross {
+        position: absolute;
+        top: 260px;
+        right: 180px;
+    }
+}
