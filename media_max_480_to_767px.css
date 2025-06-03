@@ -36,3 +36,78 @@
         right: 180px;
     }
 }
+
+
+/* surface duo code */
+
+@media only screen and (width: 540px) and (height: 720px){
+    .main nav{
+        width: 100%;
+        padding: 6px 0vw;
+        padding-right: 7vw;
+        /* background-color: yellow; */
+    }
+    .main nav img{
+        margin-left: -20px;
+    }
+    .seller{
+        display:none
+    }
+    .content{
+        padding: 0px 1.3vw;
+    }
+    .slider{
+        width: 100%;
+        height: 180px;
+    }
+    .best{
+        width: 100%;
+        height: 245px;
+    }
+    .sport{
+        width: 100%;
+        height: 320px
+    }
+    footer .top{
+        width: 100%;
+        padding: 0px 2.5vw;
+    }
+    footer .top .about{
+        font-size: .8rem
+    }
+    footer .top .about .a a{
+        font-size: .8rem
+    }
+    footer .top .help{
+        font-size: .8rem
+    }
+    footer .top .help .a a{
+        font-size: .8rem
+    }
+    footer .top .group>p{
+        font-size: .8rem
+    }
+    footer .top .group .a a{
+        font-size: .8rem
+    }
+    footer .top .consumer_policy>p{
+        white-space: wrap;
+        /* background-color: #fff; */
+        font-size: .8rem
+    }
+    footer .top .consumer_policy .a a{
+        font-size: .8rem
+    }
+    footer .bottom p{
+        font-size: 1rem;
+    }
+    /* login form  */
+    .cross {
+        position: absolute;
+        top: 140px;
+        right: 70px;
+    }
+    .login_form .button button{
+        border-radius: 34px
+    }
+}
