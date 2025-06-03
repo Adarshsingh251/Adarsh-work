@@ -207,7 +207,7 @@
         padding-bottom: 7px;
         flex-wrap: wrap;
         flex-direction: row;
-        /* align-items: baseline; */
+        align-items: baseline;
         gap: 20px 10px;
         /* background-color: red; */
     }
