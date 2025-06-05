@@ -5,7 +5,6 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-    color: orange;
 }
 html,body{
     width: 100%;
@@ -338,7 +337,6 @@ footer .top .a{
 }
 footer .top a{
     text-decoration: none;
-    color: white !important;
 }
 footer .top a:hover{
     padding-bottom: 6px;
