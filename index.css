@@ -337,6 +337,7 @@ footer .top .a{
 }
 footer .top a{
     text-decoration: none;
+    color: white !important;
 }
 footer .top a:hover{
     padding-bottom: 6px;
